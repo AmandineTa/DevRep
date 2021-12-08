@@ -1,8 +1,13 @@
 package fr.su.devrep.Controller;
 
+import fr.su.devrep.Exception.ResourceNotFoundException;
+import fr.su.devrep.Exception.SeuilDuPlafondAttendException;
+import fr.su.devrep.Exception.FondInsuffisantException;
+import fr.su.devrep.models.Client;
 import fr.su.devrep.repository.ClientRepository;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 

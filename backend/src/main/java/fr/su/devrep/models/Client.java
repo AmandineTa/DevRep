@@ -16,7 +16,9 @@ public class Client implements Serializable {
     private String tel;
     // passeword ???
 
+    //Ce qu’il y a dans le compte
     private Double balance;
+    // Découvert autorisée
     private Double overdraft;
     private Double cap;
 
