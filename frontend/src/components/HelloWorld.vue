@@ -26,7 +26,7 @@
 </template>
 
 <script>
-// Inport JISON
+// Inport JSON
 //import json from "@/assets/default.json"
 export default {
   name: 'HelloWorld',
