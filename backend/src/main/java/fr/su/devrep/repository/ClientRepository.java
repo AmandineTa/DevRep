@@ -1,6 +1,7 @@
 package fr.su.devrep.repository;
 
 import fr.su.devrep.models.Client;
+import org.hibernate.sql.Delete;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
@@ -16,6 +17,8 @@ public interface ClientRepository extends JpaRepository<Client, Long> {
 
     @Query("select c from Client c where c.tel = :tel")
     Client findByTel(@Param("tel") String tel);
+
+
 
     /*
      -  <S extends T> S save(S entity); Saves the given entity.

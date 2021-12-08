@@ -93,6 +93,20 @@ public class Client implements Serializable {
     }
 
     @Override
+    public String toString() {
+        return "Client{" +
+                "id=" + id +
+                ", firstname='" + firstname + '\'' +
+                ", lastname='" + lastname + '\'' +
+                ", email='" + email + '\'' +
+                ", tel='" + tel + '\'' +
+                ", balance=" + balance +
+                ", overdraft=" + overdraft +
+                ", cap=" + cap +
+                '}';
+    }
+
+    @Override
     public int hashCode() {
         int result = id.hashCode();
         result = 31 * result + (firstname != null ? firstname.hashCode() : 0);
@@ -103,5 +117,7 @@ public class Client implements Serializable {
         result = 31 * result + (overdraft != null ? overdraft.hashCode() : 0);
         result = 31 * result + (cap != null ? cap.hashCode() : 0);
         return result;
+
+
     }
 }

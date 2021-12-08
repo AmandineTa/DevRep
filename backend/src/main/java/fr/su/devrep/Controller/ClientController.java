@@ -5,8 +5,9 @@ import fr.su.devrep.Exception.SeuilDuPlafondAttendException;
 import fr.su.devrep.Exception.FondInsuffisantException;
 import fr.su.devrep.models.Client;
 import fr.su.devrep.repository.ClientRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -14,6 +15,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/api")
 public class ClientController {
+
+    Logger l = LoggerFactory.getLogger(ClientController.class);
 
     @Autowired
     private ClientRepository clients;
@@ -28,46 +31,50 @@ public class ClientController {
     */
 
     /**
-            CLIENTS
+            CLIENTS : OK
      */
 
-    // Obtenir la liste de tous les clients
+    // Obtenir la liste de tous les clients : OK
     @GetMapping("/clients")
     public List<Client> getAllClients() {
+        l.info("print all clients.");
         return clients.findAll();
     }
 
-    // Obtenir un clients selon son id
+    // Obtenir un clients selon son id : OK
     @GetMapping("/clients/{id}")
     public Client getClientById(@PathVariable("id") long id) throws ResourceNotFoundException{
-        // TODO logging : LOG.info("Reading client with id " + id + " from database.");
+        l.info("Print client " + id + ".");
         return clients.findById(id).orElseThrow(() -> new ResourceNotFoundException(
-                "The client " + id + " is not in the database."));
+                "Client " + id + " is not in the database."));
     }
 
-    // Obtenir un client selon son email
-    @GetMapping("/clients/{email}")
+    // Obtenir un client selon son email : OK
+    @GetMapping("/clients/mail/{email}")
     public Client getClientByEmail( @PathVariable("email") String email) {
+        l.info("Get client with his/her email : " + email + ", id : " + clients.findByEmail(email) + " .");
         return clients.findByEmail(email);
     }
 
-    // Obtenir un client selon son tel
-    @GetMapping("/clients/{tel}")
+    // Obtenir un client selon son tel : OK
+    @GetMapping("/clients/tel/{tel}")
     public Client getClientByTel(@PathVariable("tel") String tel) {
+        l.info("Get client with his/her tel : " + tel + ", id : " + clients.findByTel(tel) + " .");
         return clients.findByTel(tel);
     }
 
     /**
-        ACTIONS CLIENTS
+        ACTIONS CLIENTS : OK
      */
 
     // Dépot
     @PostMapping("/clients/{id}/depot/{amount}")
     public Client deposit(@PathVariable("id") Long id, @PathVariable("amount") Double amount) throws ResourceNotFoundException {
         Client c = clients.findById(id).orElseThrow(() -> new ResourceNotFoundException(
-                "The client " + id + " is not in the database."));
+                "Client " + id + " is not in the database."));
         c.setBalance(c.getBalance()+amount);
         clients.save(c);
+        l.info("Client "+ id + "got "+ amount + "in his account.");
         return c;
     }
     // Retrait
@@ -80,6 +87,7 @@ public class ClientController {
             if(amount < c.getBalance()+c.getOverdraft()){
                 c.setBalance(c.getBalance()-amount);
                 clients.save(c);
+                l.info("Client "+ id + "retire "+ amount + "in his account.");
                 return c;
             }else{
                 throw new FondInsuffisantException("The amount that you're trying to withdraw is above your overdraft.");
@@ -91,23 +99,29 @@ public class ClientController {
     }
 
     /**
-            AJOUTS CLIENTS
+            AJOUTS CLIENTS : OK
      */
 
+
     @PostMapping("/admin/add/{lastName}/{firstName}/{email}/{tel}/{balance}/{overdraft}/{cap}")
-    @ResponseStatus(HttpStatus.CREATED)
     public long addNewClient(@PathVariable("lastName") String lastName, @PathVariable("firstName") String firstName,
                              @PathVariable("email") String email,@PathVariable("tel") String tel,
                              @PathVariable("balance") double balance,@PathVariable("overdraft") double overdraft,
                              @PathVariable("cap") double cap) {
-        return clients.save(new Client(firstName, lastName, email, tel, balance, overdraft, cap)).getId();
+
+        Client c = new Client(firstName, lastName, email, tel, balance, overdraft, cap);
+        l.info("Client create an account : "+ c.toString());
+        return clients.save(c).getId();
 
     }
 
-    /** Add a client to the database with email and tel number */
+
     @PostMapping("/admin/add/{email}/{tel}/")
-    @ResponseStatus(HttpStatus.CREATED)
+
     public long addNewClient(@PathVariable("email") String email, @PathVariable("tel") String tel) {
-        return clients.save(new Client(email,tel)).getId();
+        Client c = new Client(email,tel);
+        l.info("Client create an account : " + c.toString());
+        return clients.save(c).getId();
     }
+
 }
