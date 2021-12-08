@@ -1,12 +1,9 @@
 <template>
   <div class="home">
-    <ul>
-      <li>
-        <img id ="logo" alt="su logo" src="../assets/su.png">
-      </li>
-    </ul>
 
-    <HelloWorld msg="DevRep project "/>
+        <img id ="logo" alt="Vue logo" src="../assets/su.png" />
+
+    <HelloWorld msg="Présentation du projet de DevRep" />
   </div>
 </template>
 
@@ -17,8 +14,7 @@ import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'Home',
-  /*
-  data:function (){
+  /*data:function (){
     return{
       banks: json["1"],
     };
@@ -30,17 +26,9 @@ export default {
 </script>
 
 <style scoped>
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+
 
 #logo{
-  width: 100%;
-
+  width: 50%;
 }
 </style>

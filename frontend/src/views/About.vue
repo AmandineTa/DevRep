@@ -25,8 +25,9 @@
   <div class="columns">
     <!-- Buttons -->
     <div class="column">
-      <p v-if="islogged == 0">
+      <p v-if="islogged == false">
       <span id="login-buttons-container">
+
         <button class="button is-info is-outlined" id="google-login-button">
           <span class="icon">
             <i class="fab fa-google"></i>
@@ -61,7 +62,7 @@
     </div>
     <!-- Column that contains log states tags -->
     <div class="column" style="text-align: right">
-      <p v-if="islogged == 1">
+      <p v-if="islogged == false">
       <span id="logged-tag" class="tag is-success is-medium">Connected</span>
       </p>
       <p v-else>
@@ -91,7 +92,7 @@
                   - "./images/bank_icons/societe_generale.png"
                   ./images/bank_icons/banque_postale.png ./images/bank_icons/cic.png ./images/bank_icons/societe_generale.png
                 -->
-              <img id ="logo" alt="logo" src="../assets/logoBank/default.png" />
+              <img id ="logo" alt="logo" src={{banklogo}} />
             </figure>
           </div>
           <div class="media-content">
@@ -152,11 +153,11 @@
         Contact
         <ul>
           <li>
-            <i><font-awesome-icon icon ="phone"/> {{phone}}</i>
+            <i><font-awesome-icon icon ="phone"/> {{bankphone}}</i>
             <span id="phoneNumberContainer"></span>
           </li>
           <li>
-            <i><font-awesome-icon icon ="envelope"/> {{mail}}</i>
+            <i><font-awesome-icon icon ="envelope"/> {{bankmail}}</i>
             <span id="mailContainer"></span>
           </li>
         </ul>
@@ -193,23 +194,27 @@ export default {
   // défini les variables de notre vue
   data: function () {
     return {
-      islogged : 0,
+      islogged : false,
       BASE_URL : `https://localhost:8082/api/`,
-      phone : '0000000000',
-      mail : 'example@example.com',
-      accountId : '1',
-      accountBalance : '100',
+      phone : '',
+      mail : '',
+      accountId : '',
+      accountBalance : '0',
       overdraft : '0',
       bankName : 'banque_default',
-      bankDescription : 'une desc',
-      connect : false,
+      bankDesc : 'Default description',
+      banklogo :"../assets/logoBank/default.png",
+      bankphone: "06 06 06 06 06",
+      bankmail: "default@bank.net"
     }
   },
   mounted : function () {
     this.initWebPageWithData();
+
     // this.getAccount();
   },
   methods: {
+
     deposit : function () {
       const defaultAmount = 200.0;
       const args = {
@@ -222,6 +227,7 @@ export default {
         this.fillAccountData(account.id, account.balance, account.overdraft)
       })
     },
+
     withdraw : function () {
       if( confirm("Do you really want to withdraw {{amount}} € ?")) {
         console.log("Withdraw")
@@ -237,20 +243,24 @@ export default {
         );
       }
     },
+
     getAccount() {
       const url = this.BASE_URL;
       axios.get(url).then(account =>
           this.fillAccountData(account.id, account.balance, account.overdraft)
       );
     },
+
     fillAccountData(accountIdTemp, accountBalance, overdraft) {
       this.accountId = accountIdTemp;
       this.accountBalance = accountBalance;
       this.overdraft = overdraft;
     },
+
     limitationChanged(checkbox) {
       this.withLimitation = checkbox.checked;
     },
+
     initWebPageWithData() {
       let donnee = {
         "name": "La Banque Postale",
