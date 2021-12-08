@@ -92,7 +92,7 @@
                   - "./images/bank_icons/societe_generale.png"
                   ./images/bank_icons/banque_postale.png ./images/bank_icons/cic.png ./images/bank_icons/societe_generale.png
                 -->
-              <img id ="logo" alt="logo" src={{banklogo}} />
+              <img id ="logo" alt="logo" src="../assets/logoBank/default.png" />
             </figure>
           </div>
           <div class="media-content">
@@ -203,7 +203,6 @@ export default {
       overdraft : '0',
       bankName : 'banque_default',
       bankDesc : 'Default description',
-      banklogo :"../assets/logoBank/default.png",
       bankphone: "06 06 06 06 06",
       bankmail: "default@bank.net"
     }
