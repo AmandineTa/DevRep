@@ -25,6 +25,7 @@
   <div class="columns">
     <!-- Buttons -->
     <div class="column">
+      <p v-if="islogged == 0">
       <span id="login-buttons-container">
         <button class="button is-info is-outlined" id="google-login-button">
           <span class="icon">
@@ -45,6 +46,8 @@
           <span>Github login</span>
         </button>
       </span>
+      </p>
+      <p if v-else>
       <span id="logout-button-container">
         <button class="button is-danger is-outlined" id="logout-button">
           <span class="icon">
@@ -53,6 +56,8 @@
           <span>Logout</span>
         </button>
       </span>
+      </p>
+
     </div>
     <!-- Column that contains log states tags -->
     <div class="column" style="text-align: right">

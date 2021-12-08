@@ -1,19 +1,12 @@
 <template>
   <div class="home">
     <ul>
-      <li >
-        <img id ="logo" alt="Vue logo" src="src/assets/logoBank/default.png" />
-      </li>
       <li>
-        <p>
-          <strong>Account n°<span id="accountId"></span></strong> <br />
-          <small>Current balance : <span id="accountBalance"></span>
-            <span id="accountCurrency"></span></small>
-        </p>
+        <img id ="logo" alt="su logo" src="../assets/su.png">
       </li>
     </ul>
 
-    <HelloWorld msg="Default description" />
+    <HelloWorld msg="DevRep project "/>
   </div>
 </template>
 
@@ -24,7 +17,8 @@ import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'Home',
-  /*data:function (){
+  /*
+  data:function (){
     return{
       banks: json["1"],
     };
@@ -46,6 +40,7 @@ li {
 }
 
 #logo{
-  width: 10%;
+  width: 100%;
+
 }
 </style>
