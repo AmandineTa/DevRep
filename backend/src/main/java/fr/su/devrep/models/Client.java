@@ -20,6 +20,7 @@ public class Client implements Serializable {
     private Double balance;
     // Découvert autorisée
     private Double overdraft;
+    // Maximum de transfert en un coups
     private Double cap;
 
     // default constructor
