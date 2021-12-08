@@ -103,23 +103,24 @@ public class ClientController {
      */
 
 
-    @PostMapping("/admin/add/{lastName}/{firstName}/{email}/{tel}/{balance}/{overdraft}/{cap}")
+    @PostMapping("/admin/add/{lastName}/{firstName}/{email}/{tel}/{mdp}/{balance}/{overdraft}/{cap}")
     public long addNewClient(@PathVariable("lastName") String lastName, @PathVariable("firstName") String firstName,
                              @PathVariable("email") String email,@PathVariable("tel") String tel,
+                             @PathVariable("mdp") String mdp,
                              @PathVariable("balance") double balance,@PathVariable("overdraft") double overdraft,
                              @PathVariable("cap") double cap) {
 
-        Client c = new Client(firstName, lastName, email, tel, balance, overdraft, cap);
+        Client c = new Client(firstName, lastName, email, tel, mdp, balance, overdraft, cap);
         l.info("Client create an account : "+ c.toString());
         return clients.save(c).getId();
 
     }
 
 
-    @PostMapping("/admin/add/{email}/{tel}/")
+    @PostMapping("/admin/add/{email}/{tel}/{mdp}")
 
-    public long addNewClient(@PathVariable("email") String email, @PathVariable("tel") String tel) {
-        Client c = new Client(email,tel);
+    public long addNewClient(@PathVariable("email") String email, @PathVariable("tel") String tel,  @PathVariable("mdp") String mdp) {
+        Client c = new Client(email,tel,mdp);
         l.info("Client create an account : " + c.toString());
         return clients.save(c).getId();
     }

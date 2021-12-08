@@ -61,8 +61,12 @@
     </div>
     <!-- Column that contains log states tags -->
     <div class="column" style="text-align: right">
+      <p v-if="islogged == 1">
       <span id="logged-tag" class="tag is-success is-medium">Connected</span>
+      </p>
+      <p v-else>
       <span id="not-logged-tag" class="tag is-warning is-medium">Not connected</span>
+      </p>
     </div>
   </div>
 
@@ -189,6 +193,7 @@ export default {
   // défini les variables de notre vue
   data: function () {
     return {
+      islogged : 0,
       BASE_URL : `https://localhost:8082/api/`,
       phone : '0000000000',
       mail : 'example@example.com',
