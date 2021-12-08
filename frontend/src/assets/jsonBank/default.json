@@ -1,0 +1,12 @@
+{
+      "1": [
+            {
+                  "name": "Default",
+                  "logo": "../assets/default.png",
+                  "description": "Default description",
+                  "phoneNumber": "00 00 00 00 00",
+                  "mail": "default@default.net"
+            }
+
+]
+}
