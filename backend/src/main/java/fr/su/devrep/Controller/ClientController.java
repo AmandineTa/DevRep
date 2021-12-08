@@ -28,72 +28,55 @@ public class ClientController {
     */
 
     /**
-     * Get all clients from the repository
-     *
-     * @return list of Clients
+            CLIENTS
      */
+
+    // Obtenir la liste de tous les clients
     @GetMapping("/clients")
     public List<Client> getAllClients() {
         return clients.findAll();
     }
 
-    /** Get a Client by his account id */
+    // Obtenir un clients selon son id
     @GetMapping("/clients/{id}")
     public Client getClientById(@PathVariable("id") long id) throws ResourceNotFoundException{
         // TODO logging : LOG.info("Reading client with id " + id + " from database.");
         return clients.findById(id).orElseThrow(() -> new ResourceNotFoundException(
-                "The client with the id " + id + " couldn't be found in the database."));
+                "The client " + id + " is not in the database."));
     }
 
-    /** Get a Client by his email*/
-    @GetMapping("/client/{email}")
+    // Obtenir un client selon son email
+    @GetMapping("/clients/{email}")
     public Client getClientByEmail( @PathVariable("email") String email) {
         return clients.findByEmail(email);
     }
-    /** Get a Client by his tel*/
-    @GetMapping("/client/{tel}")
+
+    // Obtenir un client selon son tel
+    @GetMapping("/clients/{tel}")
     public Client getClientByTel(@PathVariable("tel") String tel) {
         return clients.findByTel(tel);
     }
 
-    /** Add a client to the database with all parameter lastName, firstName, email, tel, balance, overdraft and cap*/
-    @ResponseBody
-    @RequestMapping(path = "/secured/create/{lastName}/{firstName}/{email}/{tel}/{balance}/{overdraft}/{cap}", method = RequestMethod.POST)
-    @ResponseStatus(HttpStatus.CREATED)
-    public long addNewClient(@PathVariable("lastName") String lastName, @PathVariable("firstName") String firstName,
-                             @PathVariable("email") String email,@PathVariable("tel") String tel,
-                             @PathVariable("balance") double balance,@PathVariable("overdraft") double overdraft,
-                             @PathVariable("cap") double cap) {
-        Client savedClient = clients.save(new Client(firstName, lastName, email, tel, balance, overdraft, cap));
+    /**
+        ACTIONS CLIENTS
+     */
 
-        // TODO logging : LOG.info(savedClient.toString() + " successfully saved into
-        // DB");
-
-        return savedClient.getId();
+    // Dépot
+    @PostMapping("/clients/{id}/depot/{amount}")
+    public Client deposit(@PathVariable("id") Long id, @PathVariable("amount") Double amount) throws ResourceNotFoundException {
+        Client c = clients.findById(id).orElseThrow(() -> new ResourceNotFoundException(
+                "The client " + id + " is not in the database."));
+        c.setBalance(c.getBalance()+amount);
+        clients.save(c);
+        return c;
     }
-
-    /** Add a client to the database with email and tel number */
-    @ResponseBody
-    @RequestMapping(path = "/secured/create/{email}/{tel}/", method = RequestMethod.POST)
-    @ResponseStatus(HttpStatus.CREATED)
-    public long addNewClient(@PathVariable("email") String email, @PathVariable("tel") String tel) {
-        Client savedClient = clients.save(new Client(email,tel));
-
-        // TODO logging : LOG.info(savedClient.toString() + " successfully saved into
-        // DB");
-
-        return savedClient.getId();
-    }
-
-    /** Withdraw */
-    @RequestMapping(path = "/Withdraw/{id}/{amount}")
+    // Retrait
+    @PostMapping("/clients/{id}/retrait/{amount}")
     public Client withdraw(@PathVariable("id") Long id, @PathVariable("amount") Double amount) throws ResourceNotFoundException, FondInsuffisantException, SeuilDuPlafondAttendException {
 
         Client c = clients.findById(id).orElseThrow(() -> new ResourceNotFoundException(
-                "The client with the id " + id + " couldn't be found in the database."));
-
+                "The client " + id + " is not in the database."));
         if (amount <= c.getCap()) {
-
             if(amount < c.getBalance()+c.getOverdraft()){
                 c.setBalance(c.getBalance()-amount);
                 clients.save(c);
@@ -107,14 +90,24 @@ public class ClientController {
         }
     }
 
-    /** Deposit */
-    @ResponseBody
-    @RequestMapping(path = "/Deposit/{id}/{amount}")
-    public Client deposit(@PathVariable("id") Long id, @PathVariable("amount") Double amount) throws ResourceNotFoundException {
-        Client c = clients.findById(id).orElseThrow(() -> new ResourceNotFoundException(
-                "The client with the id " + id + " couldn't be found in the database."));
-        c.setBalance(c.getBalance()+amount);
-        clients.save(c);
-        return c;
+    /**
+            AJOUTS CLIENTS
+     */
+
+    @PostMapping("/admin/add/{lastName}/{firstName}/{email}/{tel}/{balance}/{overdraft}/{cap}")
+    @ResponseStatus(HttpStatus.CREATED)
+    public long addNewClient(@PathVariable("lastName") String lastName, @PathVariable("firstName") String firstName,
+                             @PathVariable("email") String email,@PathVariable("tel") String tel,
+                             @PathVariable("balance") double balance,@PathVariable("overdraft") double overdraft,
+                             @PathVariable("cap") double cap) {
+        return clients.save(new Client(firstName, lastName, email, tel, balance, overdraft, cap)).getId();
+
+    }
+
+    /** Add a client to the database with email and tel number */
+    @PostMapping("/admin/add/{email}/{tel}/")
+    @ResponseStatus(HttpStatus.CREATED)
+    public long addNewClient(@PathVariable("email") String email, @PathVariable("tel") String tel) {
+        return clients.save(new Client(email,tel)).getId();
     }
 }
