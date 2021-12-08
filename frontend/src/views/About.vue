@@ -7,7 +7,7 @@
     <!-- Place favicon.ico in the root directory -->
     <!--<link href="bulma.min.css" /> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
-    <link rel="stylesheet" href="styles/main.css" />
+    <!--link rel="stylesheet" href="styles/main.css" />-->
 
     <!-- Choose the icon between :
         - "./styles/banks/banque_postale.css"
@@ -15,8 +15,9 @@
         - "./styles/banks/societe_generale.css"
 
         ./styles/banks/banque_postale.css ./styles/banks/cic.css ./styles/banks/societe_generale.css
+      <link rel="stylesheet" href="styles/banks/banque_postale.css" />
       -->
-    <link rel="stylesheet" href="styles/banks/banque_postale.css" />
+
   </head>
 
   <body class="container" style="margin-top: 5%">
@@ -81,7 +82,7 @@
                   - "./images/bank_icons/societe_generale.png"
                   ./images/bank_icons/banque_postale.png ./images/bank_icons/cic.png ./images/bank_icons/societe_generale.png
                 -->
-              <img id ="logo" alt="logo" src="src/assets/logoBank/default.png" />
+              <img id ="logo" alt="logo" src="../assets/logoBank/default.png" />
             </figure>
           </div>
           <div class="media-content">
@@ -129,7 +130,7 @@
     <div class="column" style="text-align: end">
       <button id="deposit-button" onclick="deposit()" class="button secondary-color">
         <span class="icon">
-          <i class="fas fa-arrow-up"></i>
+          <i><font-awesome-icon icon ="ArrowUp"/></i>
         </span>
         <span>Deposit</span>
       </button>
@@ -142,11 +143,11 @@
         Contact
         <ul>
           <li>
-            <i class="fas fa-phone"></i>
+            <i><font-awesome-icon icon ="phone"/> {{phone}}</i>
             <span id="phoneNumberContainer"></span>
           </li>
           <li>
-            <i class="fas fa-envelope"></i>
+            <i><font-awesome-icon icon ="envelope"/> {{mail}}</i>
             <span id="mailContainer"></span>
           </li>
         </ul>
@@ -157,12 +158,12 @@
       <div class="columns is-mobile">
         <div class="column is-half">
           <figure class="image is-64x64">
-            <img id ="logoM" alt="logoM" src="src/assets/masterard.png" />
+            <img id ="logoM" alt="logoM" src="../assets/masterard.png" />
           </figure>
         </div>
         <div class="column is-half">
           <figure class="image is-64x64">
-            <img id ="logoV" alt="logoV" src="src/assets/visa.png" style="margin-top: 13px" />
+            <img id ="logoV" alt="logoV" src="../assets/visa.png" />
           </figure>
         </div>
       </div>
@@ -189,7 +190,7 @@ export default {
       accountId : '1',
       accountBalance : '100',
       overdraft : '0',
-      bankName : 'banque_postale',
+      bankName : 'banque_default',
       bankDescription : 'une desc',
       connect : false,
     }
@@ -265,18 +266,40 @@ export default {
 </script>
 
 <style scoped>
-h3 {
-  margin: 40px 0 0;
+body {
+  background: #fafafa;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+
+.primary-color-text {
+  color: initial;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
+.secondary-color-text {
+  color: initial;
 }
-a {
-  color: #42b983;
+
+.primary-color,
+.primary-color:disabled {
+  background-color: initial;
+  border-color: initial;
+  color: initial;
+}
+
+.secondary-color,
+.secondary-color:disabled {
+  background-color: initial;
+  border-color: initial;
+  color: initial;
+}
+#logo{
+  width: 100%;
+}
+#logoM{
+  width: 100%;
+}
+#logoV{
+  width: 100%;
+  margin-top: 13px;
 }
 </style>
