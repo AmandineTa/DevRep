@@ -19,7 +19,8 @@
     </ul>
     <h3>Contact</h3>
     <font-awesome-icon icon ="phone"/>
-
+    <font-awesome-icon icon ="arrowUp"/>
+    <font-awesome-icon icon ="longArrowAltDown" />
     <font-awesome-icon icon ="envelope"/>
   </div>
 </template>
