@@ -37,11 +37,11 @@ Connexion sur le port de MySql 3306 avec:
 
 ## EXECUTION DU PROJET:
 
-L'exécution se fait en deux phases. On commence par lancé le backend Application.java puis le frontend (pour cela, il faut se rendre dans le fichier frontend puis lancer les commandes " npm install" puis 'npm run serve").
+L'exécution se fait en deux phases. On commence par lancé le backend Application.java puis le frontend (pour cela, il faut se rendre dans le fichier frontend puis lancer les commandes " npm install" puis "npm run serve").
 
 ## FONCTIONNALITES REALISEES ET FONCTIONNELLES:
   
-Côté backend:
+Côté back:
   - Requêtes REST:
     - Affichage de la liste des clients
     - Affichage d'un client selon son ID unique
@@ -64,13 +64,17 @@ Côté backend:
       - cap
 
   - Modifications des champs d'un clients
-  
+  - Logging ( à fonctionné pendant un moment, malheureusement actuellement non fonctionnel à cause d'un problème de dépendance) 
+  - Administrateur à pour coordonné:
+    - user : user
+    - password : clé généré sur le terminal au lancement du back
 
+Coté front:
+  - une Vue Home
+  - une Vue BankApp
+  - Affichage des boutons Google, Github et Microsoft uniquement si le client n'est pas connecté
+  - Affichage "connected" ou "not connected" selon si le client est connecté
 
-
-Le frondend vas proposée 2 vue du projet la premirére partie est pour la vue Client et la 2éme et pour la vus de l’administrateur. 
-Un client est obligatoirement validée par l’admin avant de pouvoire se connectée. 
-Chaque client est identifier par une adresse mail et un numéro de téléphone unique. 
 
 
 
