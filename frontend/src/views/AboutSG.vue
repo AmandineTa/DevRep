@@ -34,19 +34,6 @@
           </span>
           <span>Google login</span>
         </button>
-
-        <button class="button is-link is-outlined" id="microsoft-login-button">
-          <span class="icon">
-            <i class="fab fa-microsoft"></i>
-          </span>
-          <span>Microsoft login</span>
-        </button>
-        <button class="button is-dark is-outlined" id="github-login-button">
-          <span class="icon">
-            <i class="fab fa-github"></i>
-          </span>
-          <span>Github login</span>
-        </button>
       </span>
       </p>
       <p if v-else>
@@ -93,7 +80,7 @@
                   - "./images/bank_icons/societe_generale.png"
                   ./images/bank_icons/banque_postale.png ./images/bank_icons/cic.png ./images/bank_icons/societe_generale.png
                 -->
-              <img id ="logo" alt="logo" src="../assets/logoBank/default.png" />
+              <img id ="logo" alt="logo" src="../assets/logoBank/SG.png" />
             </figure>
           </div>
           <div class="media-content">
@@ -124,35 +111,30 @@
       <iframe title="Converter" src="https://xeconvert.com/widget1?from=usd&to=eur&lang=&theme=blue&font=12"
               width="100%" height="100%"></iframe>
     </div>
-
     <!-- Column that contains the Account box-->
   </div>
 
   <!-- The buttons -->
   <div class="columns">
     <div class="column" style="text-align: start">
-      <p v-if="islogged == true">
       <button id="withdraw-button" onclick="withdraw()" class="button primary-color">
         <span class="icon">
           <i class="fas fa-arrow-down"></i>
         </span>
         <span>Withdraw</span>
       </button>
-      </p>
       <!--<label class="checkbox">
           <input id="limit-checkbox" type="checkbox" onchange="limitationChanged(this)">
           With limitation
         </label>-->
     </div>
     <div class="column" style="text-align: end">
-      <p v-if="islogged == true">
       <button id="deposit-button" onclick="deposit()" class="button secondary-color">
         <span class="icon">
           <i><font-awesome-icon icon ="ArrowUp"/></i>
         </span>
         <span>Deposit</span>
       </button>
-      </p>
     </div>
   </div>
 
@@ -174,27 +156,18 @@
     </div>
 
     <div class="column is-offset-4 is-2">
-
       <div class="columns is-mobile">
-
         <div class="column is-half">
           <figure class="image is-64x64">
-            <p v-if="islogged == true">
             <img id ="logoM" alt="logoM" src="../assets/masterard.png" />
-            </p>
           </figure>
         </div>
-
         <div class="column is-half">
           <figure class="image is-64x64">
-            <p v-if="islogged == true">
             <img id ="logoV" alt="logoV" src="../assets/visa.png" />
-            </p>
           </figure>
         </div>
-
       </div>
-
     </div>
   </div>
   </body>
@@ -213,16 +186,16 @@ export default {
   data: function () {
     return {
       islogged : false,
-      BASE_URL : `https://localhost:8080/api/`,
+      BASE_URL : `https://localhost:8082/api/`,
       phone : '',
       mail : '',
       accountId : '',
       accountBalance : '0',
       overdraft : '0',
-      bankName : 'banque_default',
-      bankDesc : 'Default description',
-      bankphone: "06 06 06 06 06",
-      bankmail: "default@bank.net"
+      bankName : "Société Générale",
+      bankDesc : "Société Générale est une des principales banques françaises et une des plus anciennes. Elle fait partie des trois piliers de l'industrie bancaire française non mutualiste avec le Crédit lyonnais et BNP Paribas.",
+      bankphone: "01 42 14 58 58",
+      bankmail: "sg@sg.net"
     }
   },
   mounted : function () {
@@ -255,7 +228,7 @@ export default {
           console.log("not Enough money TODO")
         }
         const url = this.BASE_URL + "Withdraw/";
-        axios.get(url + "/clients/"+ this.accountId+"/retrait/" +args + "/" ).then(account =>
+        axios.get(url + this.accountId + "/" + args).then(account =>
             this.fillAccountData(account.id, account.balance, account.overdraft)
         );
       }
@@ -277,6 +250,16 @@ export default {
     limitationChanged(checkbox) {
       this.withLimitation = checkbox.checked;
     },
+
+    initWebPageWithData() {
+      let donnee = {
+        "name": "La Banque Postale",
+        "description": "La Banque postale est une banque publique française née le 1ᵉʳ janvier 2006, filiale à 100 % du groupe La Poste, dont elle a repris les services financiers. Son réseau de distribution s'appuie sur des bureaux de poste répartis sur le territoire, dont les agents opèrent au nom, et pour le compte de la banque.",
+        "phoneNumber": "09 69 39 99 98",
+        "mail": "laposte@laposte.net"
+      }
+      this.populateWebpageWithData( donnee.name, donnee.description, donnee.phoneNumber, donnee.mail);
+    },
     populateWebpageWithData(
         bankName,
         bankDescription,
@@ -293,32 +276,22 @@ export default {
 </script>
 
 <style scoped>
-body {
-  background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+
+.primary-color-text { color: #e60028; }
+.secondary-color-text { color: #000000; }
+
+.primary-color, .primary-color:disabled {
+  background-color: #e60028;
+  border-color: #000000;
+  color: #000000;
 }
 
-.primary-color-text {
-  color: initial;
-}
-.secondary-color-text {
-  color: initial;
-}
-
-.primary-color,
-.primary-color:disabled {
-  background-color: initial;
-  border-color: initial;
-  color: initial;
+.secondary-color, .secondary-color:disabled {
+  background-color: #000000;
+  border-color: #e60028;
+  color: #e60028;;
 }
 
-.secondary-color,
-.secondary-color:disabled {
-  background-color: initial;
-  border-color: initial;
-  color: initial;
-}
 #logo{
   width: 100%;
 }
