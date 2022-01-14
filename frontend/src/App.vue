@@ -2,7 +2,6 @@
   <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">BankApp</router-link> |
-    <router-link to="/aboutSG">BankSG</router-link> |
     <router-link to="/admin">BankAdmin</router-link>
   </div>
   <router-view/>

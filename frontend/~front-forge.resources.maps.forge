@@ -1,4 +1,109 @@
 {
-    "rangeSeeds": [],
+    "rangeSeeds": [
+        {
+            "file": "src/views/About.vue",
+            "seeds": [
+                {
+                    "id": "61312b53-b8af-424e-a80a-e574ff0912a9",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "62c52a19-41cc-46c0-8e5e-fcc7b6d6eb0a",
+                    "startLine": 89,
+                    "startColumn": 46,
+                    "endLine": 89,
+                    "endColumn": 76,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "a4e1bd70-8564-4617-9ec5-66dace79de79",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "25d4366e-e661-480b-8887-df8cd8cfa81f",
+                    "startLine": 304,
+                    "startColumn": 9,
+                    "endLine": 304,
+                    "endColumn": 16,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "98ea4295-716d-4cfe-920c-e02a6e367cb1",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "37bb6d38-c374-4ab9-bdcd-3059463ada25",
+                    "startLine": 307,
+                    "startColumn": 9,
+                    "endLine": 307,
+                    "endColumn": 16,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "5fdb6f37-44e4-43f6-870c-81bbeb9c5223",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "25d4366e-e661-480b-8887-df8cd8cfa81f",
+                    "startLine": 312,
+                    "startColumn": 20,
+                    "endLine": 312,
+                    "endColumn": 27,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "d1f06236-7e90-4293-a8c2-dde1b51e8ed5",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "37bb6d38-c374-4ab9-bdcd-3059463ada25",
+                    "startLine": 313,
+                    "startColumn": 16,
+                    "endLine": 313,
+                    "endColumn": 23,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "7f0d8773-ed65-41f5-a294-bdb33a081b24",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "37bb6d38-c374-4ab9-bdcd-3059463ada25",
+                    "startLine": 314,
+                    "startColumn": 9,
+                    "endLine": 314,
+                    "endColumn": 16,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "ee617928-95c2-4ed7-9470-8df36886bae4",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "37bb6d38-c374-4ab9-bdcd-3059463ada25",
+                    "startLine": 319,
+                    "startColumn": 20,
+                    "endLine": 319,
+                    "endColumn": 27,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "643d3303-6a3a-495d-bcd0-a94d96d26c45",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "25d4366e-e661-480b-8887-df8cd8cfa81f",
+                    "startLine": 320,
+                    "startColumn": 16,
+                    "endLine": 320,
+                    "endColumn": 23,
+                    "type": "Deletion",
+                    "isValidated": true
+                },
+                {
+                    "id": "8b775ed4-9ff5-4981-b23b-c38c84c0bc1f",
+                    "analyzer": "Resource Analyzer",
+                    "featureKey": "25d4366e-e661-480b-8887-df8cd8cfa81f",
+                    "startLine": 321,
+                    "startColumn": 9,
+                    "endLine": 321,
+                    "endColumn": 16,
+                    "type": "Deletion",
+                    "isValidated": true
+                }
+            ]
+        }
+    ],
     "fileSeeds": []
 }

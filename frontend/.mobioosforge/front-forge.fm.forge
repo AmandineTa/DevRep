@@ -60,9 +60,9 @@
                     "selector": "markerColorRect"
                 }
             ],
-            "id": "93e4e7a2-fcb8-4316-ac67-06f4dff0cfcf",
+            "id": "72bf6ff3-a585-4547-b9e2-e8e523aa59b1",
             "position": {
-                "x": 1185,
+                "x": 495,
                 "y": 50
             },
             "attrs": {
@@ -157,1239 +157,6 @@
         {
             "type": "app.FeatureShapeModel",
             "feature": {
-                "key": "752374c0-abc9-4fad-acb7-b68cd5085ad8",
-                "name": "Connexion",
-                "type": "Functionality feature",
-                "parent": "b21c1f11-2da4-4a31-89a9-26d820b592f7",
-                "parentRelation": "Normal",
-                "presence": "Optional",
-                "lgFile": "",
-                "role": "",
-                "hexColor": "#000000",
-                "help": "",
-                "nodeWeight": -1,
-                "nodeType": "feature",
-                "referenceType": "not a reference",
-                "fullName": "Connexion"
-            },
-            "size": {
-                "width": 180,
-                "height": 51
-            },
-            "hidden": false,
-            "markup": [
-                {
-                    "tagName": "rect",
-                    "selector": "body"
-                },
-                {
-                    "tagName": "rect",
-                    "selector": "header"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "headerText"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "bodyText"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "relationType"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "deadFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "commonFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "falseOptionalFeature"
-                },
-                {
-                    "tagName": "circle",
-                    "selector": "markerColorRect"
-                }
-            ],
-            "id": "a95bcbbe-08fa-4f6c-8105-ba0f8292fa47",
-            "position": {
-                "x": 380,
-                "y": 151
-            },
-            "attrs": {
-                "body": {
-                    "refWidth": "100%",
-                    "refHeight": "100%",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "stroke": "#adc949",
-                    "style": {
-                        "transition": "0.3s ease-in-out"
-                    },
-                    "rx": 8,
-                    "ry": 8
-                },
-                "header": {
-                    "refWidth": "100%",
-                    "height": 0,
-                    "stroke": "#adc949",
-                    "strokeWidth": 0,
-                    "fill": "#adc949"
-                },
-                "headerText": {
-                    "text": ""
-                },
-                "bodyText": {
-                    "text": "Connexion",
-                    "refX": "50%",
-                    "refY": "50%",
-                    "textWrap": {
-                        "ellipsis": true,
-                        "width": -10
-                    },
-                    "textVerticalAnchor": "middle",
-                    "textAnchor": "middle",
-                    "fontSize": 14,
-                    "fontWeight": 700,
-                    "fontFamily": "Inter"
-                },
-                "relationType": {
-                    "refX": "50%",
-                    "refY": "100%",
-                    "stroke": "#A0A0A0",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "strokeLinejoin": "round",
-                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
-                    "height": 20,
-                    "width": 30,
-                    "display": "none"
-                },
-                "deadFeature": {
-                    "refX": "68%",
-                    "refY": "65%",
-                    "fill": "#E63757",
-                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
-                    "title": "Dead Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "commonFeature": {
-                    "refX": "88%",
-                    "refY": "65%",
-                    "fill": "#0d6efd",
-                    "strokeLinejoin": "round",
-                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
-                    "title": "Common Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "falseOptionalFeature": {
-                    "refX": "78%",
-                    "refY": "65%",
-                    "fill": "#CA9704",
-                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
-                    "title": "False Optional Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "markerColorRect": {
-                    "refX": 12,
-                    "refY": 10,
-                    "fill": "#000000",
-                    "stroke": "none",
-                    "r": 6,
-                    "title": "Marker color",
-                    "cursor": "pointer"
-                }
-            }
-        },
-        {
-            "type": "app.FeatureShapeModel",
-            "feature": {
-                "key": "bcffe9e4-019d-4587-ad2a-eb52719c1005",
-                "name": "Google",
-                "nodeType": "feature",
-                "type": "Functionality feature",
-                "parent": "752374c0-abc9-4fad-acb7-b68cd5085ad8",
-                "parentRelation": "Normal",
-                "presence": "Normal",
-                "lgFile": "",
-                "role": "",
-                "hexColor": "#db1ec3",
-                "help": "",
-                "nodeWeight": -1,
-                "isPropagated": false,
-                "filePath": "",
-                "referenceType": "not a reference"
-            },
-            "size": {
-                "width": 180,
-                "height": 51
-            },
-            "hidden": false,
-            "markup": [
-                {
-                    "tagName": "rect",
-                    "selector": "body"
-                },
-                {
-                    "tagName": "rect",
-                    "selector": "header"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "headerText"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "bodyText"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "relationType"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "deadFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "commonFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "falseOptionalFeature"
-                },
-                {
-                    "tagName": "circle",
-                    "selector": "markerColorRect"
-                }
-            ],
-            "id": "d68f12c5-7b9b-4e0a-bc48-293babf7f09d",
-            "position": {
-                "x": 150,
-                "y": 250
-            },
-            "attrs": {
-                "body": {
-                    "refWidth": "100%",
-                    "refHeight": "100%",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "stroke": "#adc949",
-                    "style": {
-                        "transition": "0.3s ease-in-out"
-                    },
-                    "rx": 8,
-                    "ry": 8
-                },
-                "header": {
-                    "refWidth": "100%",
-                    "height": 0,
-                    "stroke": "#adc949",
-                    "strokeWidth": 0,
-                    "fill": "#adc949"
-                },
-                "headerText": {
-                    "text": ""
-                },
-                "bodyText": {
-                    "text": "Google",
-                    "refX": "50%",
-                    "refY": "50%",
-                    "textWrap": {
-                        "ellipsis": true,
-                        "width": -10
-                    },
-                    "textVerticalAnchor": "middle",
-                    "textAnchor": "middle",
-                    "fontSize": 14,
-                    "fontWeight": 700,
-                    "fontFamily": "Inter"
-                },
-                "relationType": {
-                    "refX": "50%",
-                    "refY": "100%",
-                    "stroke": "#A0A0A0",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "strokeLinejoin": "round",
-                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
-                    "height": 20,
-                    "width": 30,
-                    "display": "none"
-                },
-                "deadFeature": {
-                    "refX": "68%",
-                    "refY": "65%",
-                    "fill": "#E63757",
-                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
-                    "title": "Dead Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "commonFeature": {
-                    "refX": "88%",
-                    "refY": "65%",
-                    "fill": "#0d6efd",
-                    "strokeLinejoin": "round",
-                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
-                    "title": "Common Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "falseOptionalFeature": {
-                    "refX": "78%",
-                    "refY": "65%",
-                    "fill": "#CA9704",
-                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
-                    "title": "False Optional Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "markerColorRect": {
-                    "refX": 12,
-                    "refY": 10,
-                    "fill": "#db1ec3",
-                    "stroke": "none",
-                    "r": 6,
-                    "title": "Marker color",
-                    "cursor": "pointer",
-                    "display": "block"
-                }
-            }
-        },
-        {
-            "type": "app.FeatureShapeModel",
-            "feature": {
-                "key": "dc7fedf2-ebd4-4111-aee6-d174c73abb81",
-                "name": "GitHub",
-                "type": "Functionality feature",
-                "parent": "752374c0-abc9-4fad-acb7-b68cd5085ad8",
-                "parentRelation": "Normal",
-                "presence": "Normal",
-                "lgFile": "",
-                "role": "",
-                "hexColor": "#f375f5",
-                "help": "",
-                "nodeWeight": -1,
-                "nodeType": "feature",
-                "referenceType": "not a reference",
-                "fullName": "GitHub"
-            },
-            "size": {
-                "width": 180,
-                "height": 51
-            },
-            "hidden": false,
-            "markup": [
-                {
-                    "tagName": "rect",
-                    "selector": "body"
-                },
-                {
-                    "tagName": "rect",
-                    "selector": "header"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "headerText"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "bodyText"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "relationType"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "deadFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "commonFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "falseOptionalFeature"
-                },
-                {
-                    "tagName": "circle",
-                    "selector": "markerColorRect"
-                }
-            ],
-            "id": "bf954ec3-72b6-4daa-8a78-db2e7da8da46",
-            "position": {
-                "x": 380,
-                "y": 252
-            },
-            "attrs": {
-                "body": {
-                    "refWidth": "100%",
-                    "refHeight": "100%",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "stroke": "#adc949",
-                    "style": {
-                        "transition": "0.3s ease-in-out"
-                    },
-                    "rx": 8,
-                    "ry": 8
-                },
-                "header": {
-                    "refWidth": "100%",
-                    "height": 0,
-                    "stroke": "#adc949",
-                    "strokeWidth": 0,
-                    "fill": "#adc949"
-                },
-                "headerText": {
-                    "text": ""
-                },
-                "bodyText": {
-                    "text": "GitHub",
-                    "refX": "50%",
-                    "refY": "50%",
-                    "textWrap": {
-                        "ellipsis": true,
-                        "width": -10
-                    },
-                    "textVerticalAnchor": "middle",
-                    "textAnchor": "middle",
-                    "fontSize": 14,
-                    "fontWeight": 700,
-                    "fontFamily": "Inter"
-                },
-                "relationType": {
-                    "refX": "50%",
-                    "refY": "100%",
-                    "stroke": "#A0A0A0",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "strokeLinejoin": "round",
-                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
-                    "height": 20,
-                    "width": 30,
-                    "display": "none"
-                },
-                "deadFeature": {
-                    "refX": "68%",
-                    "refY": "65%",
-                    "fill": "#E63757",
-                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
-                    "title": "Dead Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "commonFeature": {
-                    "refX": "88%",
-                    "refY": "65%",
-                    "fill": "#0d6efd",
-                    "strokeLinejoin": "round",
-                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
-                    "title": "Common Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "falseOptionalFeature": {
-                    "refX": "78%",
-                    "refY": "65%",
-                    "fill": "#CA9704",
-                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
-                    "title": "False Optional Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "markerColorRect": {
-                    "refX": 12,
-                    "refY": 10,
-                    "fill": "#f375f5",
-                    "stroke": "none",
-                    "r": 6,
-                    "title": "Marker color",
-                    "cursor": "pointer"
-                }
-            }
-        },
-        {
-            "type": "app.FeatureShapeModel",
-            "feature": {
-                "key": "33ab198b-cadb-4d53-a517-fefe233c61f6",
-                "name": "Microsoft",
-                "type": "Functionality feature",
-                "parent": "752374c0-abc9-4fad-acb7-b68cd5085ad8",
-                "parentRelation": "Normal",
-                "presence": "Normal",
-                "lgFile": "",
-                "role": "",
-                "hexColor": "#f4bef2",
-                "help": "",
-                "nodeWeight": -1,
-                "nodeType": "feature",
-                "referenceType": "not a reference",
-                "fullName": "Microsoft"
-            },
-            "size": {
-                "width": 180,
-                "height": 51
-            },
-            "hidden": false,
-            "markup": [
-                {
-                    "tagName": "rect",
-                    "selector": "body"
-                },
-                {
-                    "tagName": "rect",
-                    "selector": "header"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "headerText"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "bodyText"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "relationType"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "deadFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "commonFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "falseOptionalFeature"
-                },
-                {
-                    "tagName": "circle",
-                    "selector": "markerColorRect"
-                }
-            ],
-            "id": "6e8a17aa-c22a-4eb9-bf71-cb19ad8c5da4",
-            "position": {
-                "x": 610,
-                "y": 252
-            },
-            "attrs": {
-                "body": {
-                    "refWidth": "100%",
-                    "refHeight": "100%",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "stroke": "#adc949",
-                    "style": {
-                        "transition": "0.3s ease-in-out"
-                    },
-                    "rx": 8,
-                    "ry": 8
-                },
-                "header": {
-                    "refWidth": "100%",
-                    "height": 0,
-                    "stroke": "#adc949",
-                    "strokeWidth": 0,
-                    "fill": "#adc949"
-                },
-                "headerText": {
-                    "text": ""
-                },
-                "bodyText": {
-                    "text": "Microsoft",
-                    "refX": "50%",
-                    "refY": "50%",
-                    "textWrap": {
-                        "ellipsis": true,
-                        "width": -10
-                    },
-                    "textVerticalAnchor": "middle",
-                    "textAnchor": "middle",
-                    "fontSize": 14,
-                    "fontWeight": 700,
-                    "fontFamily": "Inter"
-                },
-                "relationType": {
-                    "refX": "50%",
-                    "refY": "100%",
-                    "stroke": "#A0A0A0",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "strokeLinejoin": "round",
-                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
-                    "height": 20,
-                    "width": 30,
-                    "display": "none"
-                },
-                "deadFeature": {
-                    "refX": "68%",
-                    "refY": "65%",
-                    "fill": "#E63757",
-                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
-                    "title": "Dead Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "commonFeature": {
-                    "refX": "88%",
-                    "refY": "65%",
-                    "fill": "#0d6efd",
-                    "strokeLinejoin": "round",
-                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
-                    "title": "Common Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "falseOptionalFeature": {
-                    "refX": "78%",
-                    "refY": "65%",
-                    "fill": "#CA9704",
-                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
-                    "title": "False Optional Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "markerColorRect": {
-                    "refX": 12,
-                    "refY": 10,
-                    "fill": "#f4bef2",
-                    "stroke": "none",
-                    "r": 6,
-                    "title": "Marker color",
-                    "cursor": "pointer"
-                }
-            }
-        },
-        {
-            "type": "app.FeatureShapeModel",
-            "feature": {
-                "key": "4eb32bb8-7868-437e-b8ab-87270cd53cc0",
-                "name": "Banque",
-                "type": "Functionality feature",
-                "parent": "b21c1f11-2da4-4a31-89a9-26d820b592f7",
-                "parentRelation": "Normal",
-                "presence": "Optional",
-                "lgFile": "",
-                "role": "",
-                "hexColor": "#000000",
-                "help": "",
-                "nodeWeight": -1,
-                "nodeType": "feature",
-                "referenceType": "not a reference",
-                "fullName": "Banque"
-            },
-            "size": {
-                "width": 180,
-                "height": 51
-            },
-            "hidden": false,
-            "markup": [
-                {
-                    "tagName": "rect",
-                    "selector": "body"
-                },
-                {
-                    "tagName": "rect",
-                    "selector": "header"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "headerText"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "bodyText"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "relationType"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "deadFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "commonFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "falseOptionalFeature"
-                },
-                {
-                    "tagName": "circle",
-                    "selector": "markerColorRect"
-                }
-            ],
-            "id": "233fe456-1702-4468-a236-41b1bd36cc87",
-            "position": {
-                "x": 1070,
-                "y": 151
-            },
-            "attrs": {
-                "body": {
-                    "refWidth": "100%",
-                    "refHeight": "100%",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "stroke": "#adc949",
-                    "style": {
-                        "transition": "0.3s ease-in-out"
-                    },
-                    "rx": 8,
-                    "ry": 8
-                },
-                "header": {
-                    "refWidth": "100%",
-                    "height": 0,
-                    "stroke": "#adc949",
-                    "strokeWidth": 0,
-                    "fill": "#adc949"
-                },
-                "headerText": {
-                    "text": ""
-                },
-                "bodyText": {
-                    "text": "Banque",
-                    "refX": "50%",
-                    "refY": "50%",
-                    "textWrap": {
-                        "ellipsis": true,
-                        "width": -10
-                    },
-                    "textVerticalAnchor": "middle",
-                    "textAnchor": "middle",
-                    "fontSize": 14,
-                    "fontWeight": 700,
-                    "fontFamily": "Inter"
-                },
-                "relationType": {
-                    "refX": "50%",
-                    "refY": "100%",
-                    "stroke": "#A0A0A0",
-                    "strokeWidth": 1,
-                    "fill": "#000000",
-                    "strokeLinejoin": "round",
-                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
-                    "height": 20,
-                    "width": 30,
-                    "display": "block"
-                },
-                "deadFeature": {
-                    "refX": "68%",
-                    "refY": "65%",
-                    "fill": "#E63757",
-                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
-                    "title": "Dead Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "commonFeature": {
-                    "refX": "88%",
-                    "refY": "65%",
-                    "fill": "#0d6efd",
-                    "strokeLinejoin": "round",
-                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
-                    "title": "Common Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "falseOptionalFeature": {
-                    "refX": "78%",
-                    "refY": "65%",
-                    "fill": "#CA9704",
-                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
-                    "title": "False Optional Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "markerColorRect": {
-                    "refX": 12,
-                    "refY": 10,
-                    "fill": "#000000",
-                    "stroke": "none",
-                    "r": 6,
-                    "title": "Marker color",
-                    "cursor": "pointer"
-                }
-            }
-        },
-        {
-            "type": "app.FeatureShapeModel",
-            "feature": {
-                "key": "3c50f7f0-b774-4d33-ae8d-c3ca4a55ca03",
-                "name": "default",
-                "type": "Functionality feature",
-                "parent": "4eb32bb8-7868-437e-b8ab-87270cd53cc0",
-                "parentRelation": "Xor",
-                "lgFile": "",
-                "role": "",
-                "hexColor": "#00ff00",
-                "help": "",
-                "nodeWeight": -1,
-                "nodeType": "feature",
-                "referenceType": "not a reference",
-                "fullName": "default"
-            },
-            "size": {
-                "width": 180,
-                "height": 51
-            },
-            "hidden": false,
-            "markup": [
-                {
-                    "tagName": "rect",
-                    "selector": "body"
-                },
-                {
-                    "tagName": "rect",
-                    "selector": "header"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "headerText"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "bodyText"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "relationType"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "deadFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "commonFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "falseOptionalFeature"
-                },
-                {
-                    "tagName": "circle",
-                    "selector": "markerColorRect"
-                }
-            ],
-            "id": "8a0d8a13-db9c-4f2e-a4d5-8be9b1a0d3ac",
-            "position": {
-                "x": 840,
-                "y": 252
-            },
-            "attrs": {
-                "body": {
-                    "refWidth": "100%",
-                    "refHeight": "100%",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "stroke": "#adc949",
-                    "style": {
-                        "transition": "0.3s ease-in-out"
-                    },
-                    "rx": 8,
-                    "ry": 8
-                },
-                "header": {
-                    "refWidth": "100%",
-                    "height": 0,
-                    "stroke": "#adc949",
-                    "strokeWidth": 0,
-                    "fill": "#adc949"
-                },
-                "headerText": {
-                    "text": ""
-                },
-                "bodyText": {
-                    "text": "default",
-                    "refX": "50%",
-                    "refY": "50%",
-                    "textWrap": {
-                        "ellipsis": true,
-                        "width": -10
-                    },
-                    "textVerticalAnchor": "middle",
-                    "textAnchor": "middle",
-                    "fontSize": 14,
-                    "fontWeight": 700,
-                    "fontFamily": "Inter"
-                },
-                "relationType": {
-                    "refX": "50%",
-                    "refY": "100%",
-                    "stroke": "#A0A0A0",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "strokeLinejoin": "round",
-                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
-                    "height": 20,
-                    "width": 30,
-                    "display": "none"
-                },
-                "deadFeature": {
-                    "refX": "68%",
-                    "refY": "65%",
-                    "fill": "#E63757",
-                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
-                    "title": "Dead Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "commonFeature": {
-                    "refX": "88%",
-                    "refY": "65%",
-                    "fill": "#0d6efd",
-                    "strokeLinejoin": "round",
-                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
-                    "title": "Common Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "falseOptionalFeature": {
-                    "refX": "78%",
-                    "refY": "65%",
-                    "fill": "#CA9704",
-                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
-                    "title": "False Optional Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "markerColorRect": {
-                    "refX": 12,
-                    "refY": 10,
-                    "fill": "#00ff00",
-                    "stroke": "none",
-                    "r": 6,
-                    "title": "Marker color",
-                    "cursor": "pointer"
-                }
-            }
-        },
-        {
-            "type": "app.FeatureShapeModel",
-            "feature": {
-                "key": "8ca1f8b7-7254-4f01-bc28-f2ec076b6680",
-                "name": "Postal",
-                "nodeType": "feature",
-                "type": "Functionality feature",
-                "parent": "4eb32bb8-7868-437e-b8ab-87270cd53cc0",
-                "parentRelation": "Xor",
-                "lgFile": "",
-                "role": "",
-                "hexColor": "#0000ff",
-                "help": "",
-                "nodeWeight": -1,
-                "isPropagated": false,
-                "filePath": "",
-                "referenceType": "not a reference"
-            },
-            "size": {
-                "width": 180,
-                "height": 51
-            },
-            "hidden": false,
-            "markup": [
-                {
-                    "tagName": "rect",
-                    "selector": "body"
-                },
-                {
-                    "tagName": "rect",
-                    "selector": "header"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "headerText"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "bodyText"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "relationType"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "deadFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "commonFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "falseOptionalFeature"
-                },
-                {
-                    "tagName": "circle",
-                    "selector": "markerColorRect"
-                }
-            ],
-            "id": "c071e871-0629-4376-b310-c21080798ef1",
-            "position": {
-                "x": 1070,
-                "y": 252
-            },
-            "attrs": {
-                "body": {
-                    "refWidth": "100%",
-                    "refHeight": "100%",
-                    "strokeWidth": 2,
-                    "fill": "#FFFFFF",
-                    "stroke": "#FFCFC3",
-                    "style": {
-                        "transition": "0.3s ease-in-out"
-                    },
-                    "rx": 8,
-                    "ry": 8
-                },
-                "header": {
-                    "refWidth": "100%",
-                    "height": 0,
-                    "stroke": "#adc949",
-                    "strokeWidth": 0,
-                    "fill": "#adc949"
-                },
-                "headerText": {
-                    "text": ""
-                },
-                "bodyText": {
-                    "text": "Postal",
-                    "refX": "50%",
-                    "refY": "50%",
-                    "textWrap": {
-                        "ellipsis": true,
-                        "width": -10
-                    },
-                    "textVerticalAnchor": "middle",
-                    "textAnchor": "middle",
-                    "fontSize": 14,
-                    "fontWeight": 700,
-                    "fontFamily": "Inter"
-                },
-                "relationType": {
-                    "refX": "50%",
-                    "refY": "100%",
-                    "stroke": "#A0A0A0",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "strokeLinejoin": "round",
-                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
-                    "height": 20,
-                    "width": 30,
-                    "display": "none"
-                },
-                "deadFeature": {
-                    "refX": "68%",
-                    "refY": "65%",
-                    "fill": "#E63757",
-                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
-                    "title": "Dead Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "commonFeature": {
-                    "refX": "88%",
-                    "refY": "65%",
-                    "fill": "#0d6efd",
-                    "strokeLinejoin": "round",
-                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
-                    "title": "Common Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "falseOptionalFeature": {
-                    "refX": "78%",
-                    "refY": "65%",
-                    "fill": "#CA9704",
-                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
-                    "title": "False Optional Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "markerColorRect": {
-                    "refX": 12,
-                    "refY": 10,
-                    "fill": "#0000ff",
-                    "stroke": "none",
-                    "r": 6,
-                    "title": "Marker color",
-                    "cursor": "pointer",
-                    "display": "block"
-                }
-            }
-        },
-        {
-            "type": "app.FeatureShapeModel",
-            "feature": {
-                "key": "c1c0b6b3-2c86-4e01-828b-7265f375b447",
-                "name": "Société Général",
-                "type": "Functionality feature",
-                "parent": "4eb32bb8-7868-437e-b8ab-87270cd53cc0",
-                "parentRelation": "Xor",
-                "lgFile": "",
-                "role": "",
-                "hexColor": "#ff0000",
-                "help": "",
-                "nodeWeight": -1,
-                "nodeType": "feature",
-                "referenceType": "not a reference",
-                "fullName": "Société Général"
-            },
-            "size": {
-                "width": 180,
-                "height": 51
-            },
-            "hidden": false,
-            "markup": [
-                {
-                    "tagName": "rect",
-                    "selector": "body"
-                },
-                {
-                    "tagName": "rect",
-                    "selector": "header"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "headerText"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "bodyText"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "relationType"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "deadFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "commonFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "falseOptionalFeature"
-                },
-                {
-                    "tagName": "circle",
-                    "selector": "markerColorRect"
-                }
-            ],
-            "id": "5259f9bd-3e0e-40f6-9856-5dc546ff1e0b",
-            "position": {
-                "x": 1300,
-                "y": 252
-            },
-            "attrs": {
-                "body": {
-                    "refWidth": "100%",
-                    "refHeight": "100%",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "stroke": "#adc949",
-                    "style": {
-                        "transition": "0.3s ease-in-out"
-                    },
-                    "rx": 8,
-                    "ry": 8
-                },
-                "header": {
-                    "refWidth": "100%",
-                    "height": 0,
-                    "stroke": "#adc949",
-                    "strokeWidth": 0,
-                    "fill": "#adc949"
-                },
-                "headerText": {
-                    "text": ""
-                },
-                "bodyText": {
-                    "text": "Société Général",
-                    "refX": "50%",
-                    "refY": "50%",
-                    "textWrap": {
-                        "ellipsis": true,
-                        "width": -10
-                    },
-                    "textVerticalAnchor": "middle",
-                    "textAnchor": "middle",
-                    "fontSize": 14,
-                    "fontWeight": 700,
-                    "fontFamily": "Inter"
-                },
-                "relationType": {
-                    "refX": "50%",
-                    "refY": "100%",
-                    "stroke": "#A0A0A0",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "strokeLinejoin": "round",
-                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
-                    "height": 20,
-                    "width": 30,
-                    "display": "none"
-                },
-                "deadFeature": {
-                    "refX": "68%",
-                    "refY": "65%",
-                    "fill": "#E63757",
-                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
-                    "title": "Dead Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "commonFeature": {
-                    "refX": "88%",
-                    "refY": "65%",
-                    "fill": "#0d6efd",
-                    "strokeLinejoin": "round",
-                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
-                    "title": "Common Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "falseOptionalFeature": {
-                    "refX": "78%",
-                    "refY": "65%",
-                    "fill": "#CA9704",
-                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
-                    "title": "False Optional Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "markerColorRect": {
-                    "refX": 12,
-                    "refY": 10,
-                    "fill": "#ff0000",
-                    "stroke": "none",
-                    "r": 6,
-                    "title": "Marker color",
-                    "cursor": "pointer"
-                }
-            }
-        },
-        {
-            "type": "app.FeatureShapeModel",
-            "feature": {
                 "key": "ed6e0301-875c-40af-aba0-37312b6256e8",
                 "name": "Conversion",
                 "type": "Functionality feature",
@@ -1448,9 +215,9 @@
                     "selector": "markerColorRect"
                 }
             ],
-            "id": "7ce2fdeb-dbef-4c8e-b21c-5e9207a1ef37",
+            "id": "2debdc8a-bc1b-4e40-b784-dbf6aae91a77",
             "position": {
-                "x": 1300,
+                "x": 150,
                 "y": 151
             },
             "attrs": {
@@ -1544,20 +311,21 @@
         {
             "type": "app.FeatureShapeModel",
             "feature": {
-                "key": "b54f6c71-b3be-4336-ab67-343ed14395ba",
-                "name": "Type CB",
+                "key": "c7d14228-7b2c-4ec5-97e2-a0a4cd69c302",
+                "name": "MasterCard",
+                "nodeType": "feature",
                 "type": "Functionality feature",
                 "parent": "b21c1f11-2da4-4a31-89a9-26d820b592f7",
                 "parentRelation": "Normal",
                 "presence": "Optional",
                 "lgFile": "",
                 "role": "",
-                "hexColor": "#132d3c",
+                "hexColor": "#a3ceef",
                 "help": "",
                 "nodeWeight": -1,
-                "nodeType": "feature",
-                "referenceType": "not a reference",
-                "fullName": "Type CB"
+                "isPropagated": false,
+                "filePath": "",
+                "referenceType": "not a reference"
             },
             "size": {
                 "width": 180,
@@ -1602,9 +370,9 @@
                     "selector": "markerColorRect"
                 }
             ],
-            "id": "07841ae4-d6fc-4818-b964-7a1949949f12",
+            "id": "ebc38f18-0620-4cbe-800a-915d7a5d0254",
             "position": {
-                "x": 1645,
+                "x": 380,
                 "y": 151
             },
             "attrs": {
@@ -1631,7 +399,7 @@
                     "text": ""
                 },
                 "bodyText": {
-                    "text": "Type CB",
+                    "text": "MasterCard",
                     "refX": "50%",
                     "refY": "50%",
                     "textWrap": {
@@ -1687,31 +455,439 @@
                 "markerColorRect": {
                     "refX": 12,
                     "refY": 10,
-                    "fill": "#132d3c",
+                    "fill": "#a3ceef",
                     "stroke": "none",
                     "r": 6,
                     "title": "Marker color",
-                    "cursor": "pointer"
+                    "cursor": "pointer",
+                    "display": "block"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "72bf6ff3-a585-4547-b9e2-e8e523aa59b1"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "2debdc8a-bc1b-4e40-b784-dbf6aae91a77"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "89a18c82-f00a-4ebe-8f10-51318713fb10",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 7,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "72bf6ff3-a585-4547-b9e2-e8e523aa59b1"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "e1373715-a139-4993-a17a-18c405cbde79"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "7e8dc35e-a77d-405f-bda7-b33fb6a03ee2",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 7,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "black"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "72bf6ff3-a585-4547-b9e2-e8e523aa59b1"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "ebc38f18-0620-4cbe-800a-915d7a5d0254"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "98308e96-2695-4487-b00c-cab3fde0653a",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 7,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "e1373715-a139-4993-a17a-18c405cbde79"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "ec47179e-a36e-44d3-9b8d-d6e5aa94ffdc"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "3bf6abcf-0f97-4f70-81d2-493a5174dcc6",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 7,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "e1373715-a139-4993-a17a-18c405cbde79"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "8bb3c9ec-4776-4b9d-8db8-2901e7c7d93a"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "2d21ab27-e11c-4e2e-8fca-122f5809b4af",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 7,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "e1373715-a139-4993-a17a-18c405cbde79"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "ce1f8334-e26d-4d40-a34c-01b0010f6115"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "cf1ab23e-73ac-4188-8e61-7c19ca673d7a",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 7,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
+                }
+            }
+        },
+        {
+            "source": {
+                "connectionPoint": {
+                    "name": "anchor",
+                    "args": {}
+                },
+                "anchor": {
+                    "name": "bottom",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "72bf6ff3-a585-4547-b9e2-e8e523aa59b1"
+            },
+            "target": {
+                "connectionPoint": {
+                    "name": "boundary",
+                    "args": {
+                        "offset": 0,
+                        "insideout": false,
+                        "extrapolate": true,
+                        "sticky": true,
+                        "precision": 3,
+                        "stroke": true
+                    }
+                },
+                "anchor": {
+                    "name": "top",
+                    "args": {
+                        "rotate": true
+                    }
+                },
+                "id": "a746b798-8811-4448-9dff-fbb5826b950d"
+            },
+            "z": 100,
+            "type": "standard.Link",
+            "id": "a3404343-61b1-4551-94c4-a7e7d737f912",
+            "attrs": {
+                "line": {
+                    "stroke": "#adc949",
+                    "strokeWidth": 1,
+                    "targetMarker": {
+                        "type": "circle",
+                        "r": 7,
+                        "cx": 7,
+                        "d": "M 10 -5 0 0 10 5 z",
+                        "fill": "white"
+                    },
+                    "connection": true,
+                    "strokeLinejoin": "round"
+                },
+                "wrapper": {
+                    "connection": true,
+                    "strokeWidth": 10,
+                    "strokeLinejoin": "round"
                 }
             }
         },
         {
             "type": "app.FeatureShapeModel",
             "feature": {
-                "key": "bc316b79-4015-46b1-8234-bb4cbef19ae6",
-                "name": "Vista",
+                "key": "da8a08f9-c05b-4010-a296-6c02de603a0b",
+                "name": "Autentification",
+                "nodeType": "feature",
                 "type": "Functionality feature",
-                "parent": "b54f6c71-b3be-4336-ab67-343ed14395ba",
+                "parent": "b21c1f11-2da4-4a31-89a9-26d820b592f7",
                 "parentRelation": "Normal",
-                "presence": "Normal",
+                "presence": "Mandatory",
                 "lgFile": "",
                 "role": "",
-                "hexColor": "#2e7ef1",
+                "hexColor": "#000000",
                 "help": "",
                 "nodeWeight": -1,
-                "nodeType": "feature",
-                "referenceType": "not a reference",
-                "fullName": "Vista"
+                "isPropagated": false,
+                "filePath": "",
+                "referenceType": "not a reference"
             },
             "size": {
                 "width": 180,
@@ -1756,11 +932,640 @@
                     "selector": "markerColorRect"
                 }
             ],
-            "id": "19289831-484f-468f-9607-d2b7fdc5a7f5",
+            "id": "e1373715-a139-4993-a17a-18c405cbde79",
             "position": {
-                "x": 1530,
+                "x": 610,
+                "y": 151
+            },
+            "z": 101,
+            "attrs": {
+                "body": {
+                    "refWidth": "100%",
+                    "refHeight": "100%",
+                    "strokeWidth": 1,
+                    "fill": "#FFFFFF",
+                    "stroke": "#adc949",
+                    "style": {
+                        "transition": "0.3s ease-in-out"
+                    },
+                    "rx": 8,
+                    "ry": 8
+                },
+                "header": {
+                    "refWidth": "100%",
+                    "height": 0,
+                    "stroke": "#adc949",
+                    "strokeWidth": 0,
+                    "fill": "#adc949"
+                },
+                "headerText": {
+                    "text": ""
+                },
+                "bodyText": {
+                    "text": "Autentification",
+                    "refX": "50%",
+                    "refY": "50%",
+                    "textWrap": {
+                        "ellipsis": true,
+                        "width": -10
+                    },
+                    "textVerticalAnchor": "middle",
+                    "textAnchor": "middle",
+                    "fontSize": 14,
+                    "fontWeight": 700,
+                    "fontFamily": "Inter"
+                },
+                "relationType": {
+                    "refX": "50%",
+                    "refY": "100%",
+                    "stroke": "#A0A0A0",
+                    "strokeWidth": 1,
+                    "fill": "#FFFFFF",
+                    "strokeLinejoin": "round",
+                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
+                    "height": 20,
+                    "width": 30,
+                    "display": "none"
+                },
+                "deadFeature": {
+                    "refX": "68%",
+                    "refY": "65%",
+                    "fill": "#E63757",
+                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
+                    "title": "Dead Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "commonFeature": {
+                    "refX": "88%",
+                    "refY": "65%",
+                    "fill": "#0d6efd",
+                    "strokeLinejoin": "round",
+                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
+                    "title": "Common Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "falseOptionalFeature": {
+                    "refX": "78%",
+                    "refY": "65%",
+                    "fill": "#CA9704",
+                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
+                    "title": "False Optional Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "markerColorRect": {
+                    "refX": 12,
+                    "refY": 10,
+                    "fill": "#000000",
+                    "stroke": "none",
+                    "r": 6,
+                    "title": "Marker color",
+                    "cursor": "pointer",
+                    "display": "block"
+                }
+            }
+        },
+        {
+            "type": "app.FeatureShapeModel",
+            "feature": {
+                "key": "bc6419fb-6b43-493b-9d3b-0cd6423f3b3b",
+                "name": "Google",
+                "nodeType": "feature",
+                "type": "Functionality feature",
+                "parent": "da8a08f9-c05b-4010-a296-6c02de603a0b",
+                "parentRelation": "Normal",
+                "presence": "Optional",
+                "lgFile": "",
+                "role": "",
+                "hexColor": "#8878a6",
+                "help": "",
+                "nodeWeight": -1,
+                "isPropagated": false,
+                "filePath": "",
+                "referenceType": "not a reference"
+            },
+            "size": {
+                "width": 180,
+                "height": 51
+            },
+            "hidden": false,
+            "markup": [
+                {
+                    "tagName": "rect",
+                    "selector": "body"
+                },
+                {
+                    "tagName": "rect",
+                    "selector": "header"
+                },
+                {
+                    "tagName": "text",
+                    "selector": "headerText"
+                },
+                {
+                    "tagName": "text",
+                    "selector": "bodyText"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "relationType"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "deadFeature"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "commonFeature"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "falseOptionalFeature"
+                },
+                {
+                    "tagName": "circle",
+                    "selector": "markerColorRect"
+                }
+            ],
+            "id": "ec47179e-a36e-44d3-9b8d-d6e5aa94ffdc",
+            "position": {
+                "x": 380,
                 "y": 252
             },
+            "z": 102,
+            "attrs": {
+                "body": {
+                    "refWidth": "100%",
+                    "refHeight": "100%",
+                    "strokeWidth": 1,
+                    "fill": "#FFFFFF",
+                    "stroke": "#adc949",
+                    "style": {
+                        "transition": "0.3s ease-in-out"
+                    },
+                    "rx": 8,
+                    "ry": 8
+                },
+                "header": {
+                    "refWidth": "100%",
+                    "height": 0,
+                    "stroke": "#adc949",
+                    "strokeWidth": 0,
+                    "fill": "#adc949"
+                },
+                "headerText": {
+                    "text": ""
+                },
+                "bodyText": {
+                    "text": "Google",
+                    "refX": "50%",
+                    "refY": "50%",
+                    "textWrap": {
+                        "ellipsis": true,
+                        "width": -10
+                    },
+                    "textVerticalAnchor": "middle",
+                    "textAnchor": "middle",
+                    "fontSize": 14,
+                    "fontWeight": 700,
+                    "fontFamily": "Inter"
+                },
+                "relationType": {
+                    "refX": "50%",
+                    "refY": "100%",
+                    "stroke": "#A0A0A0",
+                    "strokeWidth": 1,
+                    "fill": "#FFFFFF",
+                    "strokeLinejoin": "round",
+                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
+                    "height": 20,
+                    "width": 30,
+                    "display": "none"
+                },
+                "deadFeature": {
+                    "refX": "68%",
+                    "refY": "65%",
+                    "fill": "#E63757",
+                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
+                    "title": "Dead Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "commonFeature": {
+                    "refX": "88%",
+                    "refY": "65%",
+                    "fill": "#0d6efd",
+                    "strokeLinejoin": "round",
+                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
+                    "title": "Common Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "falseOptionalFeature": {
+                    "refX": "78%",
+                    "refY": "65%",
+                    "fill": "#CA9704",
+                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
+                    "title": "False Optional Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "markerColorRect": {
+                    "refX": 12,
+                    "refY": 10,
+                    "fill": "#8878a6",
+                    "stroke": "none",
+                    "r": 6,
+                    "title": "Marker color",
+                    "cursor": "pointer",
+                    "display": "block"
+                }
+            }
+        },
+        {
+            "type": "app.FeatureShapeModel",
+            "feature": {
+                "key": "b78c7e1b-f3be-457e-b41d-043e2e22f8e8",
+                "name": "GitHub",
+                "nodeType": "feature",
+                "type": "Functionality feature",
+                "parent": "da8a08f9-c05b-4010-a296-6c02de603a0b",
+                "parentRelation": "Normal",
+                "presence": "Optional",
+                "lgFile": "",
+                "role": "",
+                "hexColor": "#0a681e",
+                "help": "",
+                "nodeWeight": -1,
+                "isPropagated": false,
+                "filePath": "",
+                "referenceType": "not a reference"
+            },
+            "size": {
+                "width": 180,
+                "height": 51
+            },
+            "hidden": false,
+            "markup": [
+                {
+                    "tagName": "rect",
+                    "selector": "body"
+                },
+                {
+                    "tagName": "rect",
+                    "selector": "header"
+                },
+                {
+                    "tagName": "text",
+                    "selector": "headerText"
+                },
+                {
+                    "tagName": "text",
+                    "selector": "bodyText"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "relationType"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "deadFeature"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "commonFeature"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "falseOptionalFeature"
+                },
+                {
+                    "tagName": "circle",
+                    "selector": "markerColorRect"
+                }
+            ],
+            "id": "8bb3c9ec-4776-4b9d-8db8-2901e7c7d93a",
+            "position": {
+                "x": 610,
+                "y": 252
+            },
+            "z": 103,
+            "attrs": {
+                "body": {
+                    "refWidth": "100%",
+                    "refHeight": "100%",
+                    "strokeWidth": 1,
+                    "fill": "#FFFFFF",
+                    "stroke": "#adc949",
+                    "style": {
+                        "transition": "0.3s ease-in-out"
+                    },
+                    "rx": 8,
+                    "ry": 8
+                },
+                "header": {
+                    "refWidth": "100%",
+                    "height": 0,
+                    "stroke": "#adc949",
+                    "strokeWidth": 0,
+                    "fill": "#adc949"
+                },
+                "headerText": {
+                    "text": ""
+                },
+                "bodyText": {
+                    "text": "GitHub",
+                    "refX": "50%",
+                    "refY": "50%",
+                    "textWrap": {
+                        "ellipsis": true,
+                        "width": -10
+                    },
+                    "textVerticalAnchor": "middle",
+                    "textAnchor": "middle",
+                    "fontSize": 14,
+                    "fontWeight": 700,
+                    "fontFamily": "Inter"
+                },
+                "relationType": {
+                    "refX": "50%",
+                    "refY": "100%",
+                    "stroke": "#A0A0A0",
+                    "strokeWidth": 1,
+                    "fill": "#FFFFFF",
+                    "strokeLinejoin": "round",
+                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
+                    "height": 20,
+                    "width": 30,
+                    "display": "none"
+                },
+                "deadFeature": {
+                    "refX": "68%",
+                    "refY": "65%",
+                    "fill": "#E63757",
+                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
+                    "title": "Dead Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "commonFeature": {
+                    "refX": "88%",
+                    "refY": "65%",
+                    "fill": "#0d6efd",
+                    "strokeLinejoin": "round",
+                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
+                    "title": "Common Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "falseOptionalFeature": {
+                    "refX": "78%",
+                    "refY": "65%",
+                    "fill": "#CA9704",
+                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
+                    "title": "False Optional Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "markerColorRect": {
+                    "refX": 12,
+                    "refY": 10,
+                    "fill": "#0a681e",
+                    "stroke": "none",
+                    "r": 6,
+                    "title": "Marker color",
+                    "cursor": "pointer",
+                    "display": "block"
+                }
+            }
+        },
+        {
+            "type": "app.FeatureShapeModel",
+            "feature": {
+                "key": "570327b3-0245-4aca-9f73-3a0cff45e3f8",
+                "name": "Microsoft",
+                "nodeType": "feature",
+                "type": "Functionality feature",
+                "parent": "da8a08f9-c05b-4010-a296-6c02de603a0b",
+                "parentRelation": "Normal",
+                "presence": "Optional",
+                "lgFile": "",
+                "role": "",
+                "hexColor": "#f4f23d",
+                "help": "",
+                "nodeWeight": -1,
+                "isPropagated": false,
+                "filePath": "",
+                "referenceType": "not a reference"
+            },
+            "size": {
+                "width": 180,
+                "height": 51
+            },
+            "hidden": false,
+            "markup": [
+                {
+                    "tagName": "rect",
+                    "selector": "body"
+                },
+                {
+                    "tagName": "rect",
+                    "selector": "header"
+                },
+                {
+                    "tagName": "text",
+                    "selector": "headerText"
+                },
+                {
+                    "tagName": "text",
+                    "selector": "bodyText"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "relationType"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "deadFeature"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "commonFeature"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "falseOptionalFeature"
+                },
+                {
+                    "tagName": "circle",
+                    "selector": "markerColorRect"
+                }
+            ],
+            "id": "ce1f8334-e26d-4d40-a34c-01b0010f6115",
+            "position": {
+                "x": 840,
+                "y": 252
+            },
+            "z": 104,
+            "attrs": {
+                "body": {
+                    "refWidth": "100%",
+                    "refHeight": "100%",
+                    "strokeWidth": 1,
+                    "fill": "#FFFFFF",
+                    "stroke": "#adc949",
+                    "style": {
+                        "transition": "0.3s ease-in-out"
+                    },
+                    "rx": 8,
+                    "ry": 8
+                },
+                "header": {
+                    "refWidth": "100%",
+                    "height": 0,
+                    "stroke": "#adc949",
+                    "strokeWidth": 0,
+                    "fill": "#adc949"
+                },
+                "headerText": {
+                    "text": ""
+                },
+                "bodyText": {
+                    "text": "Microsoft",
+                    "refX": "50%",
+                    "refY": "50%",
+                    "textWrap": {
+                        "ellipsis": true,
+                        "width": -10
+                    },
+                    "textVerticalAnchor": "middle",
+                    "textAnchor": "middle",
+                    "fontSize": 14,
+                    "fontWeight": 700,
+                    "fontFamily": "Inter"
+                },
+                "relationType": {
+                    "refX": "50%",
+                    "refY": "100%",
+                    "stroke": "#A0A0A0",
+                    "strokeWidth": 1,
+                    "fill": "#FFFFFF",
+                    "strokeLinejoin": "round",
+                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
+                    "height": 20,
+                    "width": 30,
+                    "display": "none"
+                },
+                "deadFeature": {
+                    "refX": "68%",
+                    "refY": "65%",
+                    "fill": "#E63757",
+                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
+                    "title": "Dead Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "commonFeature": {
+                    "refX": "88%",
+                    "refY": "65%",
+                    "fill": "#0d6efd",
+                    "strokeLinejoin": "round",
+                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
+                    "title": "Common Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "falseOptionalFeature": {
+                    "refX": "78%",
+                    "refY": "65%",
+                    "fill": "#CA9704",
+                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
+                    "title": "False Optional Feature",
+                    "cursor": "pointer",
+                    "display": "none"
+                },
+                "markerColorRect": {
+                    "refX": 12,
+                    "refY": 10,
+                    "fill": "#f4f23d",
+                    "stroke": "none",
+                    "r": 6,
+                    "title": "Marker color",
+                    "cursor": "pointer",
+                    "display": "block"
+                }
+            }
+        },
+        {
+            "type": "app.FeatureShapeModel",
+            "feature": {
+                "key": "905c63a9-2d7d-4439-8a17-32de67e1ef84",
+                "name": "Vista",
+                "nodeType": "feature",
+                "type": "Functionality feature",
+                "parent": "b21c1f11-2da4-4a31-89a9-26d820b592f7",
+                "parentRelation": "Normal",
+                "presence": "Optional",
+                "lgFile": "",
+                "role": "",
+                "hexColor": "#9484bc",
+                "help": "",
+                "nodeWeight": -1,
+                "isPropagated": false,
+                "filePath": "",
+                "referenceType": "not a reference"
+            },
+            "size": {
+                "width": 180,
+                "height": 51
+            },
+            "hidden": false,
+            "markup": [
+                {
+                    "tagName": "rect",
+                    "selector": "body"
+                },
+                {
+                    "tagName": "rect",
+                    "selector": "header"
+                },
+                {
+                    "tagName": "text",
+                    "selector": "headerText"
+                },
+                {
+                    "tagName": "text",
+                    "selector": "bodyText"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "relationType"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "deadFeature"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "commonFeature"
+                },
+                {
+                    "tagName": "path",
+                    "selector": "falseOptionalFeature"
+                },
+                {
+                    "tagName": "circle",
+                    "selector": "markerColorRect"
+                }
+            ],
+            "id": "a746b798-8811-4448-9dff-fbb5826b950d",
+            "position": {
+                "x": 840,
+                "y": 150
+            },
+            "z": 105,
             "attrs": {
                 "body": {
                     "refWidth": "100%",
@@ -1841,861 +1646,12 @@
                 "markerColorRect": {
                     "refX": 12,
                     "refY": 10,
-                    "fill": "#2e7ef1",
+                    "fill": "#9484bc",
                     "stroke": "none",
                     "r": 6,
                     "title": "Marker color",
-                    "cursor": "pointer"
-                }
-            }
-        },
-        {
-            "type": "app.FeatureShapeModel",
-            "feature": {
-                "key": "f8e4688f-c92d-48c3-a89e-268390816e3b",
-                "name": "Master Card",
-                "type": "Functionality feature",
-                "parent": "b54f6c71-b3be-4336-ab67-343ed14395ba",
-                "parentRelation": "Normal",
-                "presence": "Normal",
-                "lgFile": "",
-                "role": "",
-                "hexColor": "#37aebf",
-                "help": "",
-                "nodeWeight": -1,
-                "nodeType": "feature",
-                "referenceType": "not a reference",
-                "fullName": "Master Card"
-            },
-            "size": {
-                "width": 180,
-                "height": 51
-            },
-            "hidden": false,
-            "markup": [
-                {
-                    "tagName": "rect",
-                    "selector": "body"
-                },
-                {
-                    "tagName": "rect",
-                    "selector": "header"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "headerText"
-                },
-                {
-                    "tagName": "text",
-                    "selector": "bodyText"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "relationType"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "deadFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "commonFeature"
-                },
-                {
-                    "tagName": "path",
-                    "selector": "falseOptionalFeature"
-                },
-                {
-                    "tagName": "circle",
-                    "selector": "markerColorRect"
-                }
-            ],
-            "id": "c6edbc35-b96a-40b7-9a6b-4b3e2a74721f",
-            "position": {
-                "x": 1760,
-                "y": 252
-            },
-            "attrs": {
-                "body": {
-                    "refWidth": "100%",
-                    "refHeight": "100%",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "stroke": "#adc949",
-                    "style": {
-                        "transition": "0.3s ease-in-out"
-                    },
-                    "rx": 8,
-                    "ry": 8
-                },
-                "header": {
-                    "refWidth": "100%",
-                    "height": 0,
-                    "stroke": "#adc949",
-                    "strokeWidth": 0,
-                    "fill": "#adc949"
-                },
-                "headerText": {
-                    "text": ""
-                },
-                "bodyText": {
-                    "text": "Master Card",
-                    "refX": "50%",
-                    "refY": "50%",
-                    "textWrap": {
-                        "ellipsis": true,
-                        "width": -10
-                    },
-                    "textVerticalAnchor": "middle",
-                    "textAnchor": "middle",
-                    "fontSize": 14,
-                    "fontWeight": 700,
-                    "fontFamily": "Inter"
-                },
-                "relationType": {
-                    "refX": "50%",
-                    "refY": "100%",
-                    "stroke": "#A0A0A0",
-                    "strokeWidth": 1,
-                    "fill": "#FFFFFF",
-                    "strokeLinejoin": "round",
-                    "d": "M 0 0 l -10 10 q 10 10 20 0 z",
-                    "height": 20,
-                    "width": 30,
-                    "display": "none"
-                },
-                "deadFeature": {
-                    "refX": "68%",
-                    "refY": "65%",
-                    "fill": "#E63757",
-                    "d": "M 9.426 4.974 a 0.6 0.6 90 0 0 -0.852 0 L 7.2 6.354 L 5.826 4.974 A 0.6 0.6 90 0 0 4.974 5.826 L 6.354 7.2 l -1.38 1.374 a 0.6 0.6 90 0 0 0 0.852 a 0.6 0.6 90 0 0 0.852 0 L 7.2 8.046 l 1.374 1.38 a 0.6 0.6 90 0 0 0.852 0 a 0.6 0.6 90 0 0 0 -0.852 L 8.046 7.2 l 1.38 -1.374 A 0.6 0.6 90 0 0 9.426 4.974 Z m 2.016 -2.016 A 6 6 90 1 0 2.958 11.442 A 6 6 90 1 0 11.442 2.958 Z M 10.596 10.596 A 4.8 4.8 90 1 1 12 7.2 A 4.77 4.77 90 0 1 10.596 10.596 Z",
-                    "title": "Dead Feature",
                     "cursor": "pointer",
-                    "display": "none"
-                },
-                "commonFeature": {
-                    "refX": "88%",
-                    "refY": "65%",
-                    "fill": "#0d6efd",
-                    "strokeLinejoin": "round",
-                    "d": "M 6.912 1.152 A 5.76 5.76 90 1 0 12.672 6.912 A 5.7664 5.7664 90 0 0 6.912 1.152 Z m 0 10.368 a 4.608 4.608 90 1 1 4.608 -4.608 A 4.6133 4.6133 90 0 1 6.912 11.52 Z m 0 -4.896 a 0.576 0.576 90 0 0 -0.576 0.576 v 1.728 a 0.576 0.576 90 0 0 1.152 0 v -1.728 A 0.576 0.576 90 0 0 6.912 6.624 Z m 0 -2.304 a 0.72 0.72 90 1 0 0.72 0.72 A 0.72 0.72 90 0 0 6.912 4.32 Z",
-                    "title": "Common Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "falseOptionalFeature": {
-                    "refX": "78%",
-                    "refY": "65%",
-                    "fill": "#CA9704",
-                    "d": "M 7.2 9.6 a 0.6 0.6 90 1 0 0.6 0.6 A 0.6 0.6 90 0 0 7.2 9.6 Z m 6.402 0.882 l -4.83 -8.4 a 1.8 1.8 90 0 0 -3.144 0 l -4.8 8.4 A 1.8 1.8 90 0 0 2.364 13.2 H 12.036 a 1.8 1.8 90 0 0 1.566 -2.718 Z m -1.038 1.2 a 0.6 0.6 90 0 1 -0.528 0.306 H 2.364 a 0.6 0.6 90 0 1 -0.528 -0.306 a 0.6 0.6 90 0 1 0 -0.6 l 4.8 -8.4 a 0.6 0.6 90 0 1 1.068 0 l 4.83 8.4 A 0.6 0.6 90 0 1 12.564 11.694 Z M 7.2 4.8 a 0.6 0.6 90 0 0 -0.6 0.6 v 2.4 a 0.6 0.6 90 0 0 1.2 0 V 5.4 A 0.6 0.6 90 0 0 7.2 4.8 Z",
-                    "title": "False Optional Feature",
-                    "cursor": "pointer",
-                    "display": "none"
-                },
-                "markerColorRect": {
-                    "refX": 12,
-                    "refY": 10,
-                    "fill": "#37aebf",
-                    "stroke": "none",
-                    "r": 6,
-                    "title": "Marker color",
-                    "cursor": "pointer"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "93e4e7a2-fcb8-4316-ac67-06f4dff0cfcf"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "a95bcbbe-08fa-4f6c-8105-ba0f8292fa47"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "925ebc8a-8e7c-4b3c-abf8-89a35484ec4a",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 7,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "a95bcbbe-08fa-4f6c-8105-ba0f8292fa47"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "d68f12c5-7b9b-4e0a-bc48-293babf7f09d"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "b1bca748-38f5-4ace-9b7d-30e5bba5d6f3",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 7,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "a95bcbbe-08fa-4f6c-8105-ba0f8292fa47"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "bf954ec3-72b6-4daa-8a78-db2e7da8da46"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "57cdb184-a7e9-4da0-9905-ed4efc1e0f34",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 7,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "a95bcbbe-08fa-4f6c-8105-ba0f8292fa47"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "6e8a17aa-c22a-4eb9-bf71-cb19ad8c5da4"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "36a083d2-47dd-4d48-a387-d179e0d5115d",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 7,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "93e4e7a2-fcb8-4316-ac67-06f4dff0cfcf"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "233fe456-1702-4468-a236-41b1bd36cc87"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "e55674f4-2e15-4e8b-84fb-8eb6c2500ffa",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 7,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "233fe456-1702-4468-a236-41b1bd36cc87"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "8a0d8a13-db9c-4f2e-a4d5-8be9b1a0d3ac"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "c75b9535-18f7-4977-8f23-fa889ca3379d",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 0,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "233fe456-1702-4468-a236-41b1bd36cc87"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "c071e871-0629-4376-b310-c21080798ef1"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "045f1bb9-4a08-464b-96ea-d76b86e3087c",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 0,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "233fe456-1702-4468-a236-41b1bd36cc87"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "5259f9bd-3e0e-40f6-9856-5dc546ff1e0b"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "12b0df4e-408b-4128-989c-e0b2ce9720a1",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 0,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "93e4e7a2-fcb8-4316-ac67-06f4dff0cfcf"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "7ce2fdeb-dbef-4c8e-b21c-5e9207a1ef37"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "97bd4e4b-5fe7-4b14-8d41-ba6a7097b90e",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 7,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "93e4e7a2-fcb8-4316-ac67-06f4dff0cfcf"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "07841ae4-d6fc-4818-b964-7a1949949f12"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "182d4721-bc9d-470a-8b96-2304b910fc1c",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 7,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "07841ae4-d6fc-4818-b964-7a1949949f12"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "19289831-484f-468f-9607-d2b7fdc5a7f5"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "c4b8c378-3316-4bc3-8d2a-f125e6ea10f8",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 7,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
-                }
-            }
-        },
-        {
-            "source": {
-                "connectionPoint": {
-                    "name": "anchor",
-                    "args": {}
-                },
-                "anchor": {
-                    "name": "bottom",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "07841ae4-d6fc-4818-b964-7a1949949f12"
-            },
-            "target": {
-                "connectionPoint": {
-                    "name": "boundary",
-                    "args": {
-                        "offset": 0,
-                        "insideout": false,
-                        "extrapolate": true,
-                        "sticky": true,
-                        "precision": 3,
-                        "stroke": true
-                    }
-                },
-                "anchor": {
-                    "name": "top",
-                    "args": {
-                        "rotate": true
-                    }
-                },
-                "id": "c6edbc35-b96a-40b7-9a6b-4b3e2a74721f"
-            },
-            "z": 100,
-            "type": "standard.Link",
-            "id": "a48ad16f-a2e2-4f57-a31b-2434bdaac592",
-            "attrs": {
-                "line": {
-                    "stroke": "#adc949",
-                    "strokeWidth": 1,
-                    "targetMarker": {
-                        "type": "circle",
-                        "r": 7,
-                        "cx": 7,
-                        "d": "M 10 -5 0 0 10 5 z",
-                        "fill": "white"
-                    },
-                    "connection": true,
-                    "strokeLinejoin": "round"
-                },
-                "wrapper": {
-                    "connection": true,
-                    "strokeWidth": 10,
-                    "strokeLinejoin": "round"
+                    "display": "block"
                 }
             }
         }

@@ -7,16 +7,6 @@
     <!-- Place favicon.ico in the root directory -->
     <!--<link href="bulma.min.css" /> -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" />
-    <!--link rel="stylesheet" href="styles/main.css" />-->
-
-    <!-- Choose the icon between :
-        - "./styles/banks/banque_postale.css"
-        - "./styles/banks/cic.css"
-        - "./styles/banks/societe_generale.css"
-
-        ./styles/banks/banque_postale.css ./styles/banks/cic.css ./styles/banks/societe_generale.css
-      <link rel="stylesheet" href="styles/banks/banque_postale.css" />
-      -->
 
   </head>
 
@@ -34,7 +24,6 @@
           </span>
           <span>Google login</span>
         </button>
-
         <button class="button is-link is-outlined" id="microsoft-login-button">
           <span class="icon">
             <i class="fab fa-microsoft"></i>
@@ -63,6 +52,11 @@
     </div>
     <!-- Column that contains log states tags -->
     <div class="column" style="text-align: right">
+      <form>
+        <span> Chose your account: </span>
+        <input name ="accountAlmostId" v-model="accountAlmostId" />
+        <a href= "#" v-on:click="formOnSubmint"></a>
+      </form>
       <p v-if="islogged == false">
         <span id="not-logged-tag" class="tag is-warning is-medium">Not connected</span>
       </p>
@@ -93,7 +87,7 @@
                   - "./images/bank_icons/societe_generale.png"
                   ./images/bank_icons/banque_postale.png ./images/bank_icons/cic.png ./images/bank_icons/societe_generale.png
                 -->
-              <img id ="logo" alt="logo" src="../assets/logoBank/default.png" />
+              <img id ="logo" alt="logo" src="../assets/logoBank/default.png"/>
             </figure>
           </div>
           <div class="media-content">
@@ -219,10 +213,12 @@ export default {
       accountId : '',
       accountBalance : '0',
       overdraft : '0',
+      accountAlmostId:"0",
       bankName : 'banque_default',
       bankDesc : 'Default description',
       bankphone: "06 06 06 06 06",
-      bankmail: "default@bank.net"
+      bankmail: "default@bank.net",
+
     }
   },
   mounted : function () {
@@ -231,6 +227,12 @@ export default {
     // this.getAccount();
   },
   methods: {
+
+    formOnSubmint: function(){
+      this.accountId = this.accountAlmostId;
+      this.islogged = true;
+      this.getAccount();
+    }, 
 
     deposit : function () {
       const defaultAmount = 200.0;
@@ -262,7 +264,7 @@ export default {
     },
 
     getAccount() {
-      const url = this.BASE_URL;
+      const url = this.BASE_URL+"/clients/"+this.accountId;
       axios.get(url).then(account =>
           this.fillAccountData(account.id, account.balance, account.overdraft)
       );
@@ -284,7 +286,7 @@ export default {
         mail
     ) {
       this.bankName = bankName;
-      this.bankDescription = bankDescription;
+      this.bankDesc = bankDescription;
       this.phone = phone;
       this.mail = mail;
     }
